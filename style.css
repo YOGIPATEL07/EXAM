@@ -1,0 +1,149 @@
+.container{
+    height: auto;
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+h1,h3{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+p,li{
+
+   color: white;
+   font-family: 'Roboto', sans-serif;
+}
+.head{
+    display: flex;
+    background-color:#125784;
+}
+.logo>img{
+    margin-left: 18px;
+    margin-bottom: 5px;
+    max-width: 15%;
+    height: auto;
+    margin-top: 7px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-left: -143px;
+}
+nav >menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+nav > menu > ul{
+    display: flex;
+    list-style: none;
+    margin-left: -45px;
+
+}
+nav > menu > ul > li{
+    padding: 10px;
+    display: flex;
+    color: white;
+    border-right: 1px solid white;
+    font-size: 20px;
+}
+nav > menu > ul > li:last-child {
+    border: none;
+  }
+ /* .one{
+    display: flex;
+    margin-left: 165px;
+    align-items: center;
+}  */
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    filter: brightness(0.8);
+    height: 520px;
+    background-image: url("../resources/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contain{
+   display: grid;
+   grid-template-columns: 70% auto; 
+   background-color: #f57f17;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.container2>h3{
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.p1{
+ margin-left: 30px;
+}
+aside{
+    display: flex;
+}
+aside>img{
+    max-width: 100%;
+    background-size: cover;
+}
+.container3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.container3>img{
+    max-width: 100%;
+}
+.container4{
+    display: flex;
+    background-color: #5e35b1;
+    justify-content: center;
+    height: 350px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input1{
+    margin: 10px;
+    width: 325px;
+}
+.input2{
+    margin: 10px;
+    width: 325px;
+}
+button{
+    
+        margin: 10px;
+        width: 334px;
+    
+}
+.box{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.box>img{
+    margin-left: 18px;
+    margin-bottom: 5px;
+    max-width: 15%;
+    height: auto;
+    margin-top: 7px;   
+}
+.box2>h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap ;
+    align-self: center;
+    margin-left: 20px;
+}
